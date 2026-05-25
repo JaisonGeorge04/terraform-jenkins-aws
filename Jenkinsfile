@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/terraform-jenkins-aws.git'
+                git 'https://github.com/JaisonGeorge04/terraform-jenkins-aws.git'
             }
         }
 
